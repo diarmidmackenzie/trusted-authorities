@@ -1,0 +1,12 @@
+---
+authorities:
+- name: Example HA for Testing
+  bounds:
+    ne:
+      latitude: 90.01
+      longitude: 135.01
+    sw:
+      latitude: 90
+      longitude: 135
+  cursor_url: https://storage.googleapis.com/staging-spl-ha/cursor.json
+  ingest_url: https://hermes.safeplaces.extremesolution.com
