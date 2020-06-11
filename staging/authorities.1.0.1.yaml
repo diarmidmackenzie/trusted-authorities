@@ -1,5 +1,4 @@
----
-authorities:
+ authorities:
 - name: Example HA for Testing
   bounds:
     ne:
