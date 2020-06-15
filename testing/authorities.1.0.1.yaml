@@ -1,5 +1,5 @@
 authorities:
-- name: HA 1, for URL testing
+- name: Custom URL HA 1
   bounds:
     ne:
       latitude: 90.01
@@ -7,15 +7,6 @@ authorities:
     sw:
       latitude: 90
       longitude: 135
+  org_id: 1234-abcd
+  public_api: https://hermes.safeplaces.extremesolution.com
   cursor_url: https://storage.googleapis.com/staging-spl-ha/cursor.json
-  ingest_url: https://hermes.safeplaces.extremesolution.com
-- name: HA 2, for URL testing
-  bounds:
-    ne:
-      latitude: 90.01
-      longitude: 135.01
-    sw:
-      latitude: 90
-      longitude: 135
-  cursor_url: https://storage.googleapis.com/staging-spl-ha/cursor.json
-  ingest_url: https://hermes.safeplaces.extremesolution.com
