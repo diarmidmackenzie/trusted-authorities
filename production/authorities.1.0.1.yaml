@@ -10,3 +10,14 @@ authorities:
   org_id: 37a17a25-4acd-4741-a77d-db6b4179b7e3
   public_api: https://ingest.tetoncounty.safeplaces.cloud    
   cursor_url: https://cdn.safeplaces.cloud/001teton/cursor.json
+- name: MSPP/IHSI
+  bounds: 
+    ne: 
+      latitude: 19.96111096152653
+      longitude: -71.4669075777951
+    sw:
+      latitude: 18.03474050132708
+      longitude: -75.78073116143524
+  org_id: 1502ae6c-385e-4afb-99fe-c3fc566b40fb
+  public_api: https://ingest.haiti.safeplaces.cloud    
+  cursor_url: https://cdn.safeplaces.cloud/002haiti/cursor.json
